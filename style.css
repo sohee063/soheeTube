@@ -1,8 +1,125 @@
+body{
+    margin: 0px;
+    width:785px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    align-items: center;
+    padding: 0 12px;
+    
+}
+
+.navbar a{
+    color:white;
+}
+
+.navbar_logo{
+    font-size: 24px;
+    color: white;
+}
+
+.navbar_logo i{
+    font-size: 24px;
+    color: red;
+}
+
+.navbar_btn{
+    color: white;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.navbar_btn li{
+    color: white;
+    list-style: none;
+    padding: 8px 12px;
+}
+
+.main_movie{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12px;
+    justify-content: space-around;
+}
+
+.main_response-btn{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 8px 100px;
+    margin: 10px;
+    color:silver;
+    
+}
+
+.main_response-btn-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_response-btn a{
+    font-size: 25px;
+    color:gray
+}
+
+.main_response-btn div{
+    font-size: 12px;
+}
+
+.main_info{
+    height: 50px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 8px 20px;
+}
+
+.info_content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60px;
+}
+
+.sub_btn{
+    color:red;
+}
+
+footer{
+    padding: 8px 12px;
+}
+
+.footer_next{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+}
 
 
 
+.footer_next_list{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
 
-@media screen and (min-width: 1024px){
+.footer_next_list div{
+    margin-left: 20px;
+}
+
+@media screen and (min-width:1023px){
 
 } // 데스크탑
 
@@ -12,9 +129,6 @@
 } // 태블릿
 
 
-@media screen and (max-width: 767px){
-
-} // 모바일
 
 
 
